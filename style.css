@@ -1,0 +1,128 @@
+* {
+    letter-spacing: 0.5px;
+}
+p{
+    font-weight: 1;
+}
+body{
+    background: #101010;
+}
+
+svg{
+    width: 100%;
+}
+.line{
+    background: #343434;
+    max-width: 150px;
+    height: 5px;
+}
+.mt{
+    margin-top: 15px;
+}
+.line-light{
+    background: #ccc;
+    max-width: 150px;
+    height: 2px;
+    margin-bottom: 25px;
+}
+
+.ceil-element{
+    background: #e8b53d;
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    color: #272727;
+}
+
+.r{
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;  
+    /*position: relative;*/
+}
+#app{
+    background: #101010;
+}
+
+header{
+    background: #101010;
+    padding: 50px;
+}
+.header-text{
+    color: #eee;
+    /*font-family: serif;*/
+    letter-spacing: 0.5px;
+}
+.header-text h1{
+    font-size: 30px;
+}
+.portfolio{
+    padding: 50px;
+    color: #272727;
+    background: #ffa400;
+    margin: 0;
+}
+.button{
+    background: #FEE440;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+    color: #272727;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover{
+    background: #ffb344;
+    color: #272727;
+}
+.img-port{
+    max-width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.web-url{
+    color: black;
+    text-decoration: none;
+}
+.mtb{
+    margin-top: 20px;
+}
+.web-url:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.umen canvas{
+    background: #ccc;
+    width: 90%;
+    height: 14px;
+    border-radius: 10px;
+}
+.umen{
+    margin-top: 20px;
+}
+.url-btn{
+    background: #272727;
+    color: #eee;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.bpimg{
+    max-width: 50px;
+    box-shadow: 0 0 20px #039BE5;
+    border-radius: 100%;
+    transform: rotate(360deg);
+}
+.bottom-pin{
+    position: fixed;
+    top: 90%;
+    left: 10px;
+}
